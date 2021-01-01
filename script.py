@@ -145,3 +145,20 @@ nl()
 #Tuples - Do not change, () are immutable
 grades = ("a", "b", "c", "d", "f")
 print(grades[1])
+
+nl()
+#Looping
+
+#For loops - start to finish of an iterate
+vegetables = ["cucumber", "spinach", "cabbage"]
+for x in vegetables:
+	print(x)
+
+
+#while loops - execute as long as true
+
+i = 1
+
+while i < 10:
+	print(i)
+	i += 1
